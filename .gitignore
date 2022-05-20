@@ -2,3 +2,10 @@ node_modules
 dist
 .DS_Store
 _IGNORE_vintage-bot-helper-test
+old
+
+# managed by open-wa
+**.data.json
+**.node-persist**
+**_IGNORE_**
+# end managed by open-wa
