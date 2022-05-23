@@ -1,6 +1,12 @@
 version: '3'
 services:
+  ml:
+    build:
+      context: ./ml/
+      dockerfile: Dockerfile
   bot:
     build:
       context: ./
       dockerfile: Dockerfile
+    depends_on:
+      - ml

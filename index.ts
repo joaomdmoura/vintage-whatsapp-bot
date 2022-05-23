@@ -1,4 +1,4 @@
-import { startWhatsApp } from "./app/whatsapp";
+import { startWhatsApp } from "./bot/whatsapp";
 
 class App {
   start(){

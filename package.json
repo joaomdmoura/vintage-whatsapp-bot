@@ -17,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@grpc/grpc-js": "^1.6.7",
     "@open-wa/wa-automate": "^4.36.4",
     "@types/node": "^17.0.34",
     "chromium-revision": "^1.0.0",
